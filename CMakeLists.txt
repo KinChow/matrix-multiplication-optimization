@@ -42,3 +42,5 @@ aux_source_directory(${PROJECT_SOURCE_DIR}/src SRC_DIR)
 add_definitions(-DTIME_PERF_ON=1)
 
 add_executable(${PROJECT_NAME} ${SRC_DIR})
+
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/output)
